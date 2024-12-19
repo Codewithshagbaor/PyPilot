@@ -78,9 +78,21 @@ class ClaudeAI:
 def main():
     # API Key Configuration
     API_KEY = st.sidebar.text_input("Anthropic API Key", type="password")
+    x_link = "https://x.com/CodeShagbaor"
+    linkedin_link = "https://www.linkedin.com/in/code-shagbaor/"
+    github_link = "https://github.com/Codewithshagbaor"
+    mail_link = "mailto:bethdex@gmail.com"
+    custom_message = (
+        "This app is currently a demo version. If you're genuinely interested in its full development, "
+        "please reach out to the developer. Your feedback is valuable in helping us gauge user interest "
+        "and prioritize improvements. You can also reach out to me on "
+        f"[X]({x_link}), [LinkedIn]({linkedin_link}), [GitHub]({github_link}), or by [email]({mail_link})."
+    )
+    st.toast(custom_message, icon="⚠️")
     
     if not API_KEY:
         st.warning("Please enter your Anthropic API key.")
+        
         return
 
     # Initialize ClaudeAI with API key
