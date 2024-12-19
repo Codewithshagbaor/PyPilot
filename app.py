@@ -81,7 +81,7 @@ def main():
     x_link = "https://x.com/CodeShagbaor"
     linkedin_link = "https://www.linkedin.com/in/code-shagbaor/"
     github_link = "https://github.com/Codewithshagbaor"
-    mail_link = "mailto:bethdex@gmail.com"
+    mail_link = "mailto:dxtlive@gmail.com"
     custom_message = (
         "This app is currently a demo version. If you're genuinely interested in its full development, "
         "please reach out to the developer. Your feedback is valuable in helping us gauge user interest "
